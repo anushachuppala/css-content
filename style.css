@@ -1,0 +1,35 @@
+li {
+  color: green;
+  font-size: 30px;
+}
+
+.demo1 {
+  color: brown;
+}
+
+#demo2 {
+  background-color: yellow;
+}
+
+* {
+  background-color: peachpuff;
+}
+
+p,
+li {
+  background-color: rgb(152, 255, 255);
+}
+p::first-line {
+  color: rgb(252, 2, 2);
+  font-size: 20px;
+}
+
+p::first-letter {
+  font-size: 40px;
+  color: rgb(76, 43, 226);
+}
+
+p:hover {
+  background-color: pink;
+  cursor: pointer;
+}
